@@ -3,6 +3,7 @@
 <head>
 	<title>Barcode Scanner</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="javascript.js"></script>
 </head>
 
 <body>
@@ -11,7 +12,7 @@
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 
 
-		<div id="scanner"></div>
+		<div id="scannerScreen"></div>
 		<!-- <input type="button" id="scan"> -->
 		<button id="scan"><a href="#">Scan</a></button>
 
@@ -21,6 +22,9 @@
 			<button class="nav"><a href="#" onclick="show('plattegrond')">Plattegrond</a></button>
 		</div>
 		
+		<div id="about" class="page" style="display:none;">About</div>
+		<div id="scanner" class="page" style="display:none;">Scanner</div>
+		<div id="plattegrond" class="page" style="display:none;">Plattegrond</div>
 
 	</div>
 </body>
