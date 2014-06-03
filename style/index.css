@@ -25,8 +25,11 @@ p{
 	width: 400px;
 	height: 400px;
 	background: #eee;
+	border:1px solid #333;
 	margin-left: 300px;
-	margin-top: 120px
+	margin-top: 120px;
+	background-image: url('../img/barcode.png');
+	background-size: 20%;
 }
 #scan{
 	width: 400px;
