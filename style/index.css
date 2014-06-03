@@ -36,6 +36,8 @@ p{
 	height: 50px;
 	background: #333;
 	margin-top: 20px;
+	border:none;
+	
 }
 
 a{
@@ -52,5 +54,6 @@ a{
 	text-align: center;
 	line-height: 55px;
 	margin-top: 270px;
+	border:none;
 	/*float: left;	*/
 }
